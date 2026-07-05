@@ -104,10 +104,9 @@ Developed an interactive dashboard to visualize:
 ---
 
 ## Dashboard Preview
+<img width="2879" height="1799" alt="Screenshot 2026-07-05 161038" src="https://github.com/user-attachments/assets/7fc905a6-03e8-48e1-b864-aa4062d7bb00" />
 
-*(Insert your dashboard screenshot here)*
 
----
 
 ## Conclusion
 
