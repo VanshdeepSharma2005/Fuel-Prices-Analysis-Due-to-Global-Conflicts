@@ -1,124 +1,250 @@
-# Fuel Prices Analysis: Impact of Global Geopolitical Events on Fuel Prices in India (2017–2026)
+# ⛽ Fuel Prices Analysis: Impact of Global Geopolitical Events on Fuel Prices in India (2017–2026)
 
-## Project Overview
-
-This project analyzes the impact of major global geopolitical events on petrol and LPG prices across four major Indian cities—Delhi, Mumbai, Chennai, and Kolkata—from 2017 to 2026.
-
-The project demonstrates a complete data analytics workflow by combining **Microsoft Excel**, **MySQL**, and **Power BI**. To strengthen my practical understanding and showcase my technical skills, I performed data cleaning using both **Excel** and **SQL**, followed by data transformation, integration, and interactive dashboard development in Power BI.
-
----
-
-## Objectives
-
-- Analyze historical petrol and LPG price trends from 2017–2026.
-- Study the impact of major global geopolitical events on fuel prices.
-- Compare fuel price trends across four major Indian cities.
-- Demonstrate end-to-end data analytics skills using Excel, SQL, and Power BI.
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-Data%20Cleaning-217346?style=for-the-badge&logo=microsoft-excel)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
 ---
 
-## Tools & Technologies
+# Project Overview
 
-- **Microsoft Excel** – Data cleaning and preprocessing
-- **MySQL** – Data import, validation, cleaning, transformation, and data integration
-- **Power BI** – Interactive dashboard creation and data visualization
+This project analyzes how major global geopolitical events affected fuel prices in India between **2017 and 2026**.
 
----
+Using historical Petrol and LPG price datasets from **PPAC** and **Indian Oil Corporation (IOC)**, I built an end-to-end data analytics solution involving:
 
-## Project Workflow
+- Data Collection
+- Data Cleaning
+- SQL Data Transformation
+- Data Validation
+- Power BI Dashboard Development
+- Business Insight Generation
 
-### 1. Data Collection
-- Collected historical Petrol and LPG price datasets.
+The dashboard compares fuel prices across four major Indian cities:
 
-### 2. Data Cleaning (Excel)
-- Removed inconsistencies.
-- Standardized data format.
-- Prepared datasets for database import.
-
-### 3. Data Cleaning & Transformation (MySQL)
-- Imported CSV datasets into MySQL.
-- Checked for missing values.
-- Validated duplicate records.
-- Sorted and transformed datasets.
-- Created cleaned tables.
-- Joined Petrol and LPG datasets into a single analytical table.
-
-### 4. Dashboard Development (Power BI)
-Developed an interactive dashboard to visualize:
-- Fuel price trends
-- City-wise comparisons
-- Maximum prices
-- Percentage price increase
-- Impact of geopolitical events on fuel prices
+- Delhi
+- Mumbai
+- Chennai
+- Kolkata
 
 ---
 
-## Dashboard Features
+# Business Problem
+
+Global conflicts significantly impact crude oil supply chains, transportation costs, and energy markets.
+
+This project answers questions like:
+
+- How did fuel prices change during major geopolitical events?
+- Which city experienced the highest fuel prices?
+- How much did petrol and LPG prices increase over time?
+- What trends can be observed before and after major global conflicts?
+
+---
+
+# Objectives
+
+- Analyze Petrol price trends (2017–2026)
+- Analyze LPG price trends (2017–2026)
+- Compare fuel prices across major Indian cities
+- Study the effect of geopolitical events on fuel prices
+- Build an interactive Power BI dashboard
+- Demonstrate an end-to-end Data Analytics workflow
+
+---
+
+# Data Sources
+
+### Petrol & Diesel Prices
+- Petroleum Planning & Analysis Cell (PPAC)
+
+### LPG Prices
+- Indian Oil Corporation (IOC)
+
+---
+
+# Tools & Technologies
+
+| Tool | Purpose |
+|-------|----------|
+| Microsoft Excel | Data Cleaning & Preprocessing |
+| MySQL | Data Import, Cleaning & Transformation |
+| Power BI | Dashboard & Visualization |
+
+---
+
+# Project Workflow
+
+```
+Raw PDFs
+      │
+      ▼
+Convert PDF → CSV
+      │
+      ▼
+Excel Cleaning
+      │
+      ▼
+Import into MySQL
+      │
+      ▼
+SQL Cleaning
+      │
+      ▼
+Data Validation
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Business Insights
+```
+
+---
+
+# Data Cleaning (Excel)
+
+- Removed formatting issues
+- Standardized column names
+- Created Year and Month columns
+- Removed unnecessary rows
+- Corrected inconsistent values
+- Converted data into structured tables
+
+---
+
+# Data Cleaning & Transformation (MySQL)
+
+Performed SQL operations including:
+
+- Importing CSV datasets
+- Duplicate detection
+- Missing value validation
+- Data transformation
+- Sorting
+- Aggregation
+- Table creation
+- Dataset integration
+- SQL Joins
+
+---
+
+# Dashboard Features
+
+The dashboard contains:
 
 - Total Records
 - Maximum Petrol Price
 - Maximum LPG Price
-- Petrol Price Increase (%)
-- LPG Price Increase (%)
-- Petrol Price Trend Analysis
-- LPG Price Trend Analysis
-- City-wise Fuel Price Comparison
+- Petrol Price Increase %
+- LPG Price Increase %
+- Petrol Trend Analysis
+- LPG Trend Analysis
+- City-wise Comparison
+- Monthly Price Trend
 - Before vs After Conflict Analysis
 
 ---
 
-## Key Insights
+# Key Insights
 
-- Petrol prices remained relatively stable before 2021 and increased significantly during the Russia–Ukraine conflict period.
-- LPG prices showed a steady upward trend throughout the analysis period.
-- Petrol prices experienced higher percentage growth compared to LPG prices.
-- Maximum Petrol Price recorded: **₹120.13/L**
-- Maximum LPG Price recorded: **₹1,241**
-- Fuel prices remained elevated even after the initial price surge, indicating long-term market impact.
-- All four cities exhibited similar price trends with slight regional differences.
+- Petrol prices remained relatively stable until 2021.
+- Significant price increases were observed during the Russia–Ukraine conflict.
+- LPG prices followed a consistent upward trend.
+- Fuel prices remained elevated even after the initial price surge.
+- All four cities exhibited similar trends with slight regional differences.
+
+### Highlights
+
+- Maximum Petrol Price: **₹120.13/L**
+- Maximum LPG Price: **₹1,241**
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
+- Data Collection
 - Data Cleaning
-- SQL Queries
-- Data Validation
+- SQL
 - Data Transformation
+- Data Validation
 - SQL Joins
-- Data Visualization
+- Power BI
 - Dashboard Design
-- Business Insight Generation
+- Business Analysis
+- Storytelling with Data
 
 ---
 
-## Project Files
+# Project Structure
 
-- Fuel_Prices_Analysis.pbix
-- SQL Queries (.sql)
-- MySQL Database Backup (.sql)
-- Raw CSV Datasets
-- Excel Data Cleaning File
-- Dashboard Screenshot
+```
+Fuel-Prices-Analysis
+│
+├── data
+│   ├── raw
+│   └── cleaned
+│
+├── sql
+│   ├── create_database.sql
+│   ├── create_tables.sql
+│   ├── data_cleaning.sql
+│   └── Fuel_prices_backup.sql
+│
+├── powerbi
+│   └── Supply_Chain_Analysis.pbix
+│
+├── docs
+│
+├── images
+│   └── dashboard_overview.png
+│
+└── README.md
+```
 
 ---
 
-## Dashboard Preview
-<img width="2879" height="1799" alt="Screenshot 2026-07-05 161038" src="https://github.com/user-attachments/assets/7fc905a6-03e8-48e1-b864-aa4062d7bb00" />
+# Dashboard Preview
 
-
-
-## Conclusion
-
-This project demonstrates an end-to-end data analytics workflow, starting from raw data preparation to interactive dashboard creation. It highlights practical experience in Excel, SQL, and Power BI while analyzing the impact of global geopolitical events on fuel prices in India.
+![Dashboard](images/dashboard_overview.png)
 
 ---
 
-## Author
+# Future Improvements
 
-**Vanshdeep Sharma**
+- Include Diesel prices
+- Add Crude Oil price analysis
+- Include Inflation Index
+- Add INR–USD exchange rate analysis
+- Integrate live API data
+- Publish dashboard to Power BI Service
 
-Electronics & Communication Engineering (ECE)  
+---
+
+# Conclusion
+
+This project demonstrates an end-to-end Data Analytics workflow—from collecting raw government datasets to cleaning, transforming, analyzing, and visualizing the data using Excel, MySQL, and Power BI.
+
+The project showcases practical skills in data preparation, SQL querying, dashboard development, and business insight generation while examining how global geopolitical events influence fuel prices in India.
+
+---
+
+# Author
+
+## Vanshdeep Sharma
+
+Electronics & Communication Engineering (ECE)
+
 Aspiring Data Analyst
 
-**Skills:** SQL | Power BI | Microsoft Excel | MySQL | Data Analysis 
+**Skills**
+
+- SQL
+- MySQL
+- Power BI
+- Microsoft Excel
+- Data Analysis
+
+📧 Connect with me on LinkedIn
+
+⭐ If you found this project useful, consider giving it a star.
