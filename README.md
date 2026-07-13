@@ -206,7 +206,8 @@ Fuel-Prices-Analysis
 
 # Dashboard Preview
 
-![Dashboard](images/dashboard_overview.png)
+![Dashboard](<img width="2879" height="1798" alt="Screenshot 2026-07-14 012320" src="https://github.com/user-attachments/assets/5f307c03-918e-4167-9e8f-3f5f0da6efc2" />
+)
 
 ---
 
